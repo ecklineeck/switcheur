@@ -5,28 +5,7 @@ module.exports = {
     },
 
     message: function (args, command, message) {
-        // This is the command that will update the prefix for the bot
-        if (command === "prefix" && message.author.id === "109440322139885568") {
-            console.log(args)
-            const newPrefix = args[0];
-            console.log(newPrefix)
-            message.delete().catch(O_o => { });
-            fireconfig.update({
-                value: newPrefix,
-            }, {
-                    where: {
-                        Setting: {
-                            $eq: "Prefix"
-                        }
-                    }
-                })
-            client.prefix = newPrefix
-            message.channel.send("I have updated to prefix to " + newPrefix)
-            message.react("✅")
 
-        } else if (command === "prefix" && message.author.id !== "109440322139885568") {
-            message.channel.send("Sorry this is a command only for my master")
-        }
         if (command === "ping") {
             message.channel.send("Pong!")
             message.react("✅")

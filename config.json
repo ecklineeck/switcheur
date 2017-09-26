@@ -3,7 +3,7 @@
         "BotToken": "MzYyMzA0MjIyMDE4MTQyMjA5.DKwtnA.EbV6RFg3qCT8UloSSX_MFD6J5dM",
         "Debug": false,
         "ignoreBots": true,
-        "prefix": "!",
+        "prefix": "$",
         "useDatabase": false
 
     },
