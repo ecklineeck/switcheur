@@ -116,7 +116,7 @@ NoPluginsFound.prototype = Object.create(Error.prototype);
 
 //Let's load some plugins!!!
 const pluginsFolder = path.join(__dirname, "/plugins");
-console.debug('Looking for plugin files...');
+console.log('Looking for plugin files...');
 var pluginsList = fs.readdirSync(pluginsFolder);
 // add debugging true here on release
 if (client.config.BotSettings.Debug == true) { console.log(pluginsList) }
@@ -169,7 +169,7 @@ pluginLoaded = pluginLoaded.filter(function (empty) {
 });
 
 if (client.config.BotSettings.Debug == true) { console.log(pluginLoaded) };
-console.debug(pluginLoaded.length + ' plugins loaded: ' + pluginsList);
+console.log(pluginLoaded.length + ' plugins loaded: ' + pluginsList);
 
 // This will load the help text from all the plugins.
 client.pluginHelp = new Array;
