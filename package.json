@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "name": "Firebot-for-Discord",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js",
+    "mysql2": "1.4.2",
+    "sequelize": "4.8.2"
+  }
+}

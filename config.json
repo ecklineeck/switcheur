@@ -1,0 +1,18 @@
+{
+    "BotSettings": {
+        "BotToken": "MzYyMzA0MjIyMDE4MTQyMjA5.DKwtnA.EbV6RFg3qCT8UloSSX_MFD6J5dM",
+        "Debug": false,
+        "ignoreBots": true,
+        "prefix": "!",
+        "useDatabase": false
+
+    },
+    "MySql": {
+        "dbName": "",
+        "dbUserName": "",
+        "dbPassword": "",
+        "dbHost": "",
+        "dbType": "mysql" 
+    },
+    "__Notes": "Don't change the 'dbType' option for now, we will be supporting other dbTypes in the near future!"
+}
