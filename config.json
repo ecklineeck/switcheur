@@ -1,9 +1,9 @@
 {
     "BotSettings": {
-        "BotToken": "MzYyMzA0MjIyMDE4MTQyMjA5.DKwtnA.EbV6RFg3qCT8UloSSX_MFD6J5dM",
+        "BotToken": "MzYyMzY2MzQyMzQ4NjY4OTM4.DPVlVg.TGw2-qT4BDWfvwv6xYXsHcsHYW8",
         "Debug": false,
         "ignoreBots": true,
-        "prefix": "$",
+        "prefix": ".",
         "useDatabase": false
 
     },

@@ -87,18 +87,18 @@ module.exports = {
                 name: "Fire Bot Auto Channel",
                 icon_url: 'http://i.imgur.com/aDiphof.png'
             },
-            title: "How to use Auto Channel!",
+            title: "Auto Channel Help",
             fields: [{
-                name: "Create and Auto Channel!",
-                value: "To create an Auto Channel join any channel with a controller emoji prefix. If will move you into the new Auto Channel automatically! Others can join your auto channels just like any normal channel!"
+                name: "Create and Auto Channel.",
+                value: "To create an Auto Channel join any channel with a 🎮 prefix. If will move you into the new Auto Channel automatically! Others can join your auto channels just like any normal channel!"
             },
             {
-                name: "Leaving an Auto channel",
+                name: "Leaving an Auto channel.",
                 value: "When everyone leaves auto channel it deletes itself, cool right!"
             },
             {
-                name: "Group Creators",
-                value: "On Warframe LFG if your the creator of an Auto Channel your allowed to edit the channel setting and change the channel name! You can also drag unwanted guests out of the channel by dropping them in the Vesper Relay!"
+                name: "Group Creators.",
+                value: "If your the creator of an Auto Channel your allowed to edit the channel size and change the channel name!"
             }
             ],
             timestamp: new Date(),
